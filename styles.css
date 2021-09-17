@@ -88,3 +88,47 @@ body {
   font-family: 'Nunito', sans-serif;
   color: #fdebc2;
 }
+
+@media (max-width: 767px) {
+  * {
+    text-align: center;
+  }
+
+  #container-1 {
+    padding: 0px;
+    flex-direction: column;
+  }
+
+  #button {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .col2 {
+    height: 50vh;
+    position: absolute;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 30% !important;
+  }
+
+  #container-2 {
+    padding: 0px;
+    height: 100%;
+  }
+
+  .congrats {
+    padding: 0px;
+  }
+
+  .col3 {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+  }
+
+  .siskom {
+    padding-top: 5rem;
+  }
+}
